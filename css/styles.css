@@ -932,7 +932,7 @@
   margin-top: 20px;
   margin-left: 10px;
   position: relative;
-  display: flex;
+  display: flex;.backdrop-agreements input
   justify-content: space-between;
   align-items: center;
 }
