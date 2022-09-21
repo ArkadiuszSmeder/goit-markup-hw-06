@@ -384,7 +384,7 @@
                                 <div class="backdrop-inputs">
                                     <label for="user-name">Imię</label>
                                     <div class="backdrop-input">
-                                        <input type="text" name="user-name" required>
+                                        <input type="text" name="user-name" id="user-name" required>
                                         <svg class="form-icon" width="16px" height="14px">
                                             <use href="./images/symbol-defs.svg#icon-head" width="12px" height="12px" x="2" y="1">
                                             </use>
@@ -392,7 +392,7 @@
                                     </div>
                                     <label for="phone-number">Telefon</label>
                                     <div class="backdrop-input">
-                                        <input type="tel" name="phone-number" required pattern="[0-9+]{9,}" title="Numer telefonu musi składać się z minimum 9 cyfr i może być poprzedzony znakiem plusa.">
+                                        <input type="tel" name="phone-number" id="phone-number" required pattern="[0-9+]{9,}" title="Numer telefonu musi składać się z minimum 9 cyfr i może być poprzedzony znakiem plusa.">
                                         <svg class="form-icon" width="16px" height="14px">
                                             <use href="./images/symbol-defs.svg#icon-handset" width="13px" height="13px" x="1.5" y="1.5">
                                             </use>
@@ -400,19 +400,19 @@
                                     </div>
                                     <label for="e-mail">Email</label>
                                     <div class="backdrop-input">
-                                        <input type="email" name="e-mail" required>
+                                        <input type="email" name="e-mail" id="e-mail" required>
                                         <svg class="form-icon" width="16px" height="14px">
                                             <use href="./images/symbol-defs.svg#icon-envelope-2" width="15px" height="12px" x="0.5" y="1">
                                             </use>
                                         </svg>
                                     </div>
                                     <label for="comment">Komentarz</label>
-                                    <textarea class="order-textarea" name="feedback" placeholder="Wprowadź tekst"></textarea>
+                                    <textarea class="order-textarea" name="feedback" id="comment" placeholder="Wprowadź tekst"></textarea>
 
                                     <div class="backdrop-agreements">
                                         <input type="checkbox" name="user-agreements" required>
                                         <svg width="16px" height="15px">
-                                            <use width="11px" height="8px" x="2.5" y="1.5" href="./images/icons.svg#icon-signmark">
+                                            <use href="./images/symbol-defs.svg#icon-signmark">
                                             </use>
                                         </svg>
                                         <label for="user-agreements">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę Prywatności</a>.</label>      
